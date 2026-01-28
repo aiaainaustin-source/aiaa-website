@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events | AIAA UT Austin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500;600;700&family=Charis+SIL:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="images/favicon2.png" type="image/png">
+</head>
+<body>
+  <header class="page-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo"><img src="images/AIAA_Logo_2.png" alt="AIAA — UT Austin" class="logo-img"></a>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="join.html">Join</a>
+        <div class="nav-dropdown">
+          <a href="about.html" class="nav-dropdown-trigger">About Us</a>
+          <ul class="nav-dropdown-menu">
+            <li><a href="bylaws.html">Bylaws</a></li>
+            <li><a href="officer-team.html">Officer Team</a></li>
+            <li><a href="competition-team.html">Competition Team</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="nav-dropdown">
+          <a href="events.html" class="nav-dropdown-trigger active">Events</a>
+          <ul class="nav-dropdown-menu">
+            <li><a href="general-meetings.html">General Meetings</a></li>
+            <li><a href="workshops.html">Workshops</a></li>
+            <li><a href="socials.html">Socials</a></li>
+            <li><a href="information-sessions.html">Information Sessions</a></li>
+            <li><a href="competitions.html">Competitions</a></li>
+            <li><a href="conferences.html">Conferences</a></li>
+          </ul>
+        </div>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-main about-page-main">
+    <div class="about-page-wrap" id="events-page-wrap">
+      <!-- Flow images: 6 varied types — ground/satellite, plane+tower, parachute landing, parachute, rocket, satellite (parallax via about-pillars.js) -->
+      <div class="flow-images events-flow-images" aria-hidden="true">
+        <img src="images/front-images/ground_station_satellite.png" alt="" class="flow-image flow-image--left flow-image--1" data-speed="0.35">
+        <img src="images/front-images/plane_comm_tower.png" alt="" class="flow-image flow-image--right flow-image--2" data-speed="0.5">
+        <img src="images/front-images/para_space_landing.png" alt="" class="flow-image flow-image--left flow-image--3" data-speed="0.4">
+        <img src="images/front-images/parachute_payload.png" alt="" class="flow-image flow-image--right flow-image--4" data-speed="0.55">
+        <img src="images/front-images/rocket_launch.png" alt="" class="flow-image flow-image--left flow-image--5" data-speed="0.45">
+        <img src="images/front-images/satellite_in_space.png" alt="" class="flow-image flow-image--right flow-image--6" data-speed="0.5">
+      </div>
+
+      <!-- Mission-style intro -->
+      <section class="about-mission">
+        <div class="about-mission-lines" aria-hidden="true"></div>
+        <div class="about-mission-grid" aria-hidden="true"></div>
+        <div class="container about-mission-inner">
+          <h1 class="about-mission-title">Events</h1>
+          <p class="about-mission-lead">As a professional student organization, AIAA offers multiple events for members to partake in. Examples of events we host are general meetings, workshops, socials, and information sessions! We encourage everyone interested to participate and enjoy the benefits that we give to all UT Austin students!</p>
+        </div>
+      </section>
+
+      <!-- Six event categories: pillar blocks link to category pages (user-authored events in events-content/) -->
+      <section class="about-pillars">
+        <div class="about-pillars-bg" aria-hidden="true"></div>
+        <div class="pillar-blocks">
+          <article class="pillar-block pillar-block--general-meetings">
+            <div class="pillar-block-inner">
+              <div class="pillar-section-image" data-pillar="general-meetings" aria-hidden="true">
+                <img src="images/events/general_meetings.jpg" alt="" class="pillar-section-img">
+              </div>
+              <div class="pillar-content">
+                <h2 class="pillar-block-title"><a href="general-meetings.html" class="pillar-block-link">General Meetings</a></h2>
+                <p class="pillar-block-text">AIAA's general meetings have representatives ranging from engineers, VPs, and CEOs of various aerospace companies to come to UT Austin to talk about their experiences, the companies they represent, and advice on how to be professional and technical. We also have free food at all of our general meetings, so we encourage students to come over and partake!</p>
+                <a href="general-meetings.html" class="pillar-block-cta">View events →</a>
+              </div>
+            </div>
+            <div class="pillar-divider" aria-hidden="true"></div>
+          </article>
+          <article class="pillar-block pillar-block--workshops">
+            <div class="pillar-block-inner">
+              <div class="pillar-section-image" data-pillar="workshops" aria-hidden="true">
+                <img src="images/events/workshops.jpg" alt="" class="pillar-section-img">
+              </div>
+              <div class="pillar-content">
+                <h2 class="pillar-block-title"><a href="workshops.html" class="pillar-block-link">Workshops</a></h2>
+                <p class="pillar-block-text">AIAA's workshops have representatives ranging from advisors, recruiters, and specialists of various aerospace companies to come to UT Austin to give advice to students on how to refine their resumes and cover letters, dress and articulate professionally, and guiding them throughout their career paths!</p>
+                <a href="workshops.html" class="pillar-block-cta">View events →</a>
+              </div>
+            </div>
+            <div class="pillar-divider" aria-hidden="true"></div>
+          </article>
+          <article class="pillar-block pillar-block--socials">
+            <div class="pillar-block-inner">
+              <div class="pillar-section-image" data-pillar="socials" aria-hidden="true">
+                <img src="images/events/socials.jpg" alt="" class="pillar-section-img">
+              </div>
+              <div class="pillar-content">
+                <h2 class="pillar-block-title"><a href="socials.html" class="pillar-block-link">Socials</a></h2>
+                <p class="pillar-block-text">AIAA's socials are done in collaboration with various aerospace companies in the greater Austin area, where students have the opportunity to talk to industry professionals about anything career-related or even personal!</p>
+                <a href="socials.html" class="pillar-block-cta">View events →</a>
+              </div>
+            </div>
+            <div class="pillar-divider" aria-hidden="true"></div>
+          </article>
+          <article class="pillar-block pillar-block--information-sessions">
+            <div class="pillar-block-inner">
+              <div class="pillar-section-image" data-pillar="information-sessions" aria-hidden="true">
+                <img src="images/events/information_sessions.jpg" alt="" class="pillar-section-img">
+              </div>
+              <div class="pillar-content">
+                <h2 class="pillar-block-title"><a href="information-sessions.html" class="pillar-block-link">Information Sessions</a></h2>
+                <p class="pillar-block-text">AIAA's information sessions are a way for students to learn more about a specific company that they have an interest in, where they can easily understand their application process, what they want to see in an applicant, and their minimum and preferred requirements for a specific position!</p>
+                <a href="information-sessions.html" class="pillar-block-cta">View events →</a>
+              </div>
+            </div>
+            <div class="pillar-divider" aria-hidden="true"></div>
+          </article>
+          <article class="pillar-block pillar-block--competitions">
+            <div class="pillar-block-inner">
+              <div class="pillar-section-image" data-pillar="competitions" aria-hidden="true">
+                <img src="images/events/workshops.jpg" alt="" class="pillar-section-img">
+              </div>
+              <div class="pillar-content">
+                <h2 class="pillar-block-title"><a href="competitions.html" class="pillar-block-link">Competitions</a></h2>
+                <p class="pillar-block-text">AIAA competes in design and research competitions that give members hands-on experience. Add your competition events and photos via the events-content/competitions/ folder.</p>
+                <a href="competitions.html" class="pillar-block-cta">View events →</a>
+              </div>
+            </div>
+            <div class="pillar-divider" aria-hidden="true"></div>
+          </article>
+          <article class="pillar-block pillar-block--conferences">
+            <div class="pillar-block-inner">
+              <div class="pillar-section-image" data-pillar="conferences" aria-hidden="true">
+                <img src="images/events/socials.jpg" alt="" class="pillar-section-img">
+              </div>
+              <div class="pillar-content">
+                <h2 class="pillar-block-title"><a href="conferences.html" class="pillar-block-link">Conferences</a></h2>
+                <p class="pillar-block-text">AIAA members attend and present at regional and national conferences. Add your conference events and photos via the events-content/conferences/ folder.</p>
+                <a href="conferences.html" class="pillar-block-cta">View events →</a>
+              </div>
+            </div>
+            <div class="pillar-divider pillar-divider--last" aria-hidden="true"></div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Get Involved + Join / About at bottom (mirrors About page) -->
+      <section class="about-get-involved">
+        <div class="container">
+          <h2 class="about-get-involved-title">Get Involved</h2>
+          <div class="about-get-involved-buttons">
+            <a href="join.html" class="btn btn-primary">Join AIAA</a>
+            <a href="about.html" class="btn btn-secondary-inverse">About Us</a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand"><img src="images/AIAA_Logo_2.png" alt="AIAA — UT Austin" class="footer-logo"></div>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+      <p class="footer-credit">Website Design made by Yash Jain</p>
+    </div>
+  </footer>
+
+  <script src="about-pillars.js"></script>
+</body>
+</html>

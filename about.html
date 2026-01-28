@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | AIAA UT Austin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500;600;700&family=Charis+SIL:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="images/favicon2.png" type="image/png">
+</head>
+<body>
+  <header class="page-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo"><img src="images/AIAA_Logo_2.png" alt="AIAA — UT Austin" class="logo-img"></a>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="join.html">Join</a>
+        <div class="nav-dropdown">
+          <a href="about.html" class="nav-dropdown-trigger active">About Us</a>
+          <ul class="nav-dropdown-menu">
+            <li><a href="bylaws.html">Bylaws</a></li>
+            <li><a href="officer-team.html">Officer Team</a></li>
+            <li><a href="competition-team.html">Competition Team</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="nav-dropdown">
+          <a href="events.html" class="nav-dropdown-trigger">Events</a>
+          <ul class="nav-dropdown-menu">
+            <li><a href="general-meetings.html">General Meetings</a></li>
+            <li><a href="workshops.html">Workshops</a></li>
+            <li><a href="socials.html">Socials</a></li>
+            <li><a href="information-sessions.html">Information Sessions</a></li>
+            <li><a href="competitions.html">Competitions</a></li>
+            <li><a href="conferences.html">Conferences</a></li>
+          </ul>
+        </div>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-main about-page-main">
+    <div class="about-page-wrap" id="about-page-wrap">
+      <!-- Generic flow images on sides: parallax layers (data-speed = scroll factor) -->
+      <div class="flow-images" aria-hidden="true">
+        <img src="images/front-images/rocket_launch.png" alt="" class="flow-image flow-image--left flow-image--1" data-speed="0.35">
+        <img src="images/front-images/plane.png" alt="" class="flow-image flow-image--right flow-image--2" data-speed="0.5">
+        <img src="images/front-images/satellite_in_space.png" alt="" class="flow-image flow-image--left flow-image--3" data-speed="0.4">
+        <img src="images/front-images/three_planes.png" alt="" class="flow-image flow-image--right flow-image--4" data-speed="0.55">
+      </div>
+
+      <!-- Mission-style intro -->
+      <section class="about-mission">
+        <div class="about-mission-lines" aria-hidden="true"></div>
+        <div class="about-mission-grid" aria-hidden="true"></div>
+        <div class="container about-mission-inner">
+          <h1 class="about-mission-title">About Us</h1>
+          <p class="about-mission-lead">As a professional student organization, AIAA offers many ways for members to get involved. We welcome students from all majors and disciplines to attend our events and discover how AIAA can help them develop their future career interests! No prior experience is required; all you need is curiosity, passion, and a willingness to learn alongside a supportive community!</p>
+        </div>
+      </section>
+
+      <!-- Three pillars: stacked blocks, cool dividers, front-images with parallax -->
+      <section class="about-pillars">
+        <div class="about-pillars-bg" aria-hidden="true"></div>
+        <div class="pillar-blocks">
+          <article class="pillar-block pillar-block--networking">
+            <div class="pillar-block-inner">
+              <div class="pillar-section-image" data-pillar="networking" aria-hidden="true">
+                <img src="images/about_us/aboutUsNetworking.jpg" alt="" class="pillar-section-img">
+              </div>
+              <div class="pillar-content">
+                <h2 class="pillar-block-title">Networking</h2>
+                <p class="pillar-block-text">AIAA's student events are filled with various industry professionals and faculty from the local Austin area. These events give students an opportunity to get to know more about the growing aerospace industry of Austin while developing major contacts that help students in their future careers.</p>
+              </div>
+            </div>
+            <div class="pillar-divider" aria-hidden="true"></div>
+          </article>
+          <article class="pillar-block pillar-block--volunteerism">
+            <div class="pillar-block-inner">
+              <div class="pillar-section-image" data-pillar="volunteerism" aria-hidden="true">
+                <img src="images/about_us/AboutUsVolunteerism.png" alt="" class="pillar-section-img">
+              </div>
+              <div class="pillar-content">
+                <h2 class="pillar-block-title">Volunteerism</h2>
+                <p class="pillar-block-text">At AIAA, we're committed to giving back to the community through meaningful volunteer work. Each semester, our members participate in service projects that support local organizations and make a real impact through hands-on service and outreach.</p>
+              </div>
+            </div>
+            <div class="pillar-divider" aria-hidden="true"></div>
+          </article>
+          <article class="pillar-block pillar-block--competitions">
+            <div class="pillar-block-inner">
+              <div class="pillar-section-image" data-pillar="competitions" aria-hidden="true">
+                <img src="images/about_us/AboutUsCompetitions.png" alt="" class="pillar-section-img">
+              </div>
+              <div class="pillar-content">
+                <h2 class="pillar-block-title">Competitions</h2>
+                <p class="pillar-block-text">AIAA competes in annual space & aircraft design competitions that give students hands-on engineering experience in a collaborative setting. These teams are especially valuable for underclassmen looking to build technical skills early in their academic journey. Members work together on various projects, applying classroom knowledge to real-world problems.</p>
+              </div>
+            </div>
+            <div class="pillar-divider pillar-divider--last" aria-hidden="true"></div>
+          </article>
+        </div>
+      </section>
+
+      <!-- GET INVOLVED + Join / Events at bottom -->
+      <section class="about-get-involved">
+        <div class="container">
+          <h2 class="about-get-involved-title">Get Involved</h2>
+          <div class="about-get-involved-buttons">
+            <a href="join.html" class="btn btn-primary">Join AIAA</a>
+            <a href="events.html" class="btn btn-secondary-inverse">Events</a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand"><img src="images/AIAA_Logo_2.png" alt="AIAA — UT Austin" class="footer-logo"></div>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+      <p class="footer-credit">Website Design made by Yash Jain</p>
+    </div>
+  </footer>
+
+  <script src="about-pillars.js"></script>
+</body>
+</html>

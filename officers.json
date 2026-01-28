@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Anush Bansal",
+    "role": "President",
+    "image": "images/people/officer_images/anush_bansal.png",
+    "quote": "I've moved 15 times in my life!",
+    "linkedin": "",
+    "email": ""
+  },
+  {
+    "name": "Liam Lemaire",
+    "role": "Vice President (Internal)",
+    "image": "images/people/officer_images/liam_lemaire.png",
+    "quote": "I have an 8-year-old German Sheperd in my home in Houston!",
+    "linkedin": "",
+    "email": ""
+  },
+  {
+    "name": "Anvita Nandula",
+    "role": "Vice President (External)",
+    "image": "images/people/officer_images/anvita_nandula.png",
+    "quote": "I played the violin for 7 years!",
+    "linkedin": "",
+    "email": ""
+  },
+  {
+    "name": "Yash Jain",
+    "role": "Vice President of Awesomeness and Website Design",
+    "image": "images/people/officer_images/yash_jain.jpg",
+    "quote": "Coder by day. Coder by night.",
+    "linkedin": "www.linkedin.com/in/yashjain-aus",
+    "email": ""
+  },
+  {
+    "name": "Ronil Shah",
+    "role": "Secretary",
+    "image": "images/people/officer_images/ronil_shah.png",
+    "quote": "I've broken my arm three times!",
+    "linkedin": "",
+    "email": ""
+  },
+  {
+    "name": "Casey Griffith",
+    "role": "Treasurer",
+    "image": "images/people/officer_images/casey_griffith.png",
+    "quote": "I've trained my cat to walk with a leash!",
+    "linkedin": "",
+    "email": ""
+  },
+  {
+    "name": "Jay Kim",
+    "role": "Cockrell Relations Chair",
+    "image": "images/people/officer_images/jay_kim.png",
+    "quote": "I have napped in every building on campus!",
+    "linkedin": "",
+    "email": ""
+  },
+  {
+    "name": "Faith Garza",
+    "role": "Competitions Chair",
+    "image": "images/people/officer_images/faith_garza.png",
+    "quote": "I did competitive dancing for 7 years!",
+    "linkedin": "https://linkedin.com/in/faithgarza",
+    "email": "faith.garza@utexas.edu"
+  },
+  {
+    "name": "Sanjana Kalyandurg",
+    "role": "Social Media Chair",
+    "image": "images/people/officer_images/sanjana_kalyandurg.png",
+    "quote": "I have been to 34 states and counting!",
+    "linkedin": "",
+    "email": ""
+  },
+  {
+    "name": "Sharan Sathish",
+    "role": "Freshman Representative",
+    "image": "images/people/officer_images/sharan_sathish.jpg",
+    "quote": "I race drones and RC planes!",
+    "linkedin": "",
+    "email": ""
+  },
+  {
+    "name": "Mason Wakefield",
+    "role": "Freshman Representative",
+    "image": "images/people/officer_images/mason_wakefield.jpg",
+    "quote": "I can pour soft-serve into a perfect swirl every time.",
+    "linkedin": "",
+    "email": ""
+  }
+]

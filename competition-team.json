@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Faith Garza",
+    "role": "Competitions Chair",
+    "image": "images/people/competition_officer_images/faith_garza.png",
+    "quote": "I did competitive dancing for 7 years!",
+    "linkedin": "https://linkedin.com/in/faithgarza",
+    "email": "faith.garza@utexas.edu"
+  },
+  {
+    "name": "Shrey Joshi",
+    "role": "Space Team Mentor",
+    "image": "images/people/competition_officer_images/shrey_joshi.jpg",
+    "quote": "Mentoring the Space Team for AIAA competitions.",
+    "linkedin": "",
+    "email": ""
+  },
+  {
+    "name": "Rohan Tejomurtula",
+    "role": "Aircraft Team Mentor",
+    "image": "images/people/competition_officer_images/rohan_tejomurtula.jpg",
+    "quote": "Mentoring the Aircraft Team for AIAA competitions.",
+    "linkedin": "",
+    "email": ""
+  }
+]

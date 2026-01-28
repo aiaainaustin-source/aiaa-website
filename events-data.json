@@ -1,0 +1,113 @@
+{
+  "general_meetings": [
+    {
+      "name": "Fall 2025 AIAA General Meeting #3",
+      "date": "2025-11-12",
+      "summary": "For our third general meeting of the Fall 2025 semester, we brought in the CEO of Perseus Defense (YC S25), Dr. John Cornelius, who discussed his journey to create a San Francisco-originated aerospace startup that specializes in aerospace and defense technology! He also gave us insight into student opportunities in the defense industry and how to become a successful entrepreneur and engineer!",
+      "images": [
+        "images/events/aiaa-gm-3.jpg"
+      ]
+    },
+    {
+      "name": "Fall 2025 AIAA General Meeting #2",
+      "date": "2025-10-15",
+      "summary": "For our second general meeting of the Fall 2025 semester, we brought in representatives from CesiumAstro, Wisk Aerospace, and SkyGrid, where they talked about various student opportunities their companies had, their journeys into the aerospace industry, and plans for their businesses in the future!",
+      "images": [
+        "images/events/aiaa-gm-2.jpg"
+      ]
+    },
+    {
+      "name": "Fall 2025 AIAA General Meeting #1",
+      "date": "2025-09-10",
+      "summary": "For our first general meeting of the Fall 2025 semester, we opened up the year by hosting Flare-X, an Austin-based startup, with its purpose being to develop top-tier drone technology! We also discussed future AIAA events, openings for our Freshman Representative positions, and brought food and games!",
+      "images": [
+        "images/events/aiaa-gm-1.jpg"
+      ]
+    }
+  ],
+  "workshops": [
+    {
+      "name": "Fall 2025 Boeing Resume Workshop",
+      "date": "2025-10-01",
+      "summary": "Former Boeing interns who currently go to UT Austin brought Boeing representatives to campus, where they gave a lecture about the company, its goals, and internship opportunities! They also helped engineering students refine and tailor their resumes for potential internship and career opportunities!",
+      "images": [
+        "images/events/aiaa-ws-1-1.jpg",
+        "images/events/aiaa-ws-1-2.jpg"
+      ]
+    }
+  ],
+  "socials": [
+    {
+      "name": "Fall 2025 AIAA Officer Pizza Press Dinner",
+      "date": "2025-12-05",
+      "summary": "AIAA officers had the opportunity to host a Pizza Press Dinner, discussing the work they had done throughout the past semester and future plans for Spring 2026!",
+      "images": [
+        "images/events/aiaa-pizza-officer.png"
+      ]
+    },
+    {
+      "name": "Fall 2025 AIAA Boba Social",
+      "date": "2025-11-25",
+      "summary": "AIAA officers hosted a Boba Social for its members to prepare for finals week, where students had the opportunity to use the ingredients required to make their own boba drink!",
+      "images": [
+        "images/events/aiaa-boba-1.jpg",
+        "images/events/aiaa-boba-2.jpg",
+        "images/events/aiaa-boba-3.jpg"
+      ]
+    },
+    {
+      "name": "Fall 2025 Firefly Aerospace Meet-and-Greet",
+      "date": "2025-10-15",
+      "summary": "AIAA members from UT Austin and UT San Antonio went to Leander, TX in North Austin to meet with various Firefly Aerospace leaders and engineers! Students learned more about the company, its opportunities, and made various bonds and connections with Firefly personnel!",
+      "images": [
+        "images/events/firefly_1.jpg",
+        "images/events/firefly_2.jpg",
+        "images/events/firefly_3.jpg"
+      ]
+    },
+    {
+      "name": "Spring 2025 STEM Girl Day",
+      "date": "2025-02-22",
+      "summary": "AIAA officers partnered with the Cockrell School of Engineering to host STEM Girl Day, where K-12 female students in the Austin area come to UT Austin to learn about what it's like to have a career in STEM!",
+      "images": [
+        "images/events/stem_girls_day_1.jpg",
+        "images/events/stem_girls_day_2.jpg",
+        "images/events/stem_girls_day_3.jpg"
+      ]
+    }
+  ],
+  "information_sessions": [
+    {
+      "name": "Fall 2025 CACI Inc. Event",
+      "date": "2025-10-10",
+      "summary": "AIAA members attended an information session about CACI Inc., an IT company that provides services to the U.S. government in terms of defense, homeland security, and intelligence! Students learned about the company, how to apply for its internships, and tips on how to be a successful applicant and professional!",
+      "images": [
+        "images/events/info-1-1.jpg",
+        "images/events/info-1-2.jpg",
+        "images/events/info-1-3.jpg"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "name": "AIAA DC25",
+      "date": "2025-05-01",
+      "summary": "AIAA hosted its annual DC (Design Competition) report for 2025, where they discussed the progress their competition team has done throughout the past academic year!",
+      "images": [
+        "images/events/competition-1-1.png",
+        "images/events/competition-1-2.png",
+        "images/events/competition-1-3.png"
+      ]
+    }
+  ],
+  "conferences": [
+    {
+      "name": "Region Conference Information Session",
+      "date": "2025-12-03",
+      "summary": "Are you interested in presenting research, connecting with peers and professionals, or learning more about aerospace research? Join AIAA at our Region Conference information session to learn how to get involved! Key dates: interest form open now (traditionally 10–15 page research papers); information session Wednesday, December 3 at 5:30pm in WCP 3.106; interest form closes Monday, December 8. Officers will reach out over break to confirm attendance—check your email regularly. Non-researchers have opportunities too; more info at the session. Contact the officer team if you need assistance or have questions. We hope to see a strong UT presence at the regional conference!",
+      "images": [
+        "[]"
+      ]
+    }
+  ]
+}

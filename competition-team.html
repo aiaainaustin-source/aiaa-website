@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Competition Team | AIAA UT Austin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500;600;700&family=Charis+SIL:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="images/favicon2.png" type="image/png">
+</head>
+<body>
+  <header class="page-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo"><img src="images/AIAA_Logo_2.png" alt="AIAA — UT Austin" class="logo-img"></a>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="join.html">Join</a>
+        <div class="nav-dropdown">
+          <a href="about.html" class="nav-dropdown-trigger">About Us</a>
+          <ul class="nav-dropdown-menu">
+            <li><a href="bylaws.html">Bylaws</a></li>
+            <li><a href="officer-team.html">Officer Team</a></li>
+            <li><a href="competition-team.html">Competition Team</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="nav-dropdown">
+          <a href="events.html" class="nav-dropdown-trigger">Events</a>
+          <ul class="nav-dropdown-menu">
+            <li><a href="general-meetings.html">General Meetings</a></li>
+            <li><a href="workshops.html">Workshops</a></li>
+            <li><a href="socials.html">Socials</a></li>
+            <li><a href="information-sessions.html">Information Sessions</a></li>
+            <li><a href="competitions.html">Competitions</a></li>
+            <li><a href="conferences.html">Conferences</a></li>
+          </ul>
+        </div>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-main">
+    <section class="officer-section competition-section" id="competition-section">
+      <div class="officer-hero-bg" aria-hidden="true"></div>
+      <div class="officer-flow-images" aria-hidden="true">
+        <img src="images/front-images/rocket_launch.png" alt="" class="flow-image flow-image--left flow-image--1" data-speed="0.35">
+        <img src="images/front-images/plane.png" alt="" class="flow-image flow-image--right flow-image--2" data-speed="0.5">
+        <img src="images/front-images/satellite_in_space.png" alt="" class="flow-image flow-image--left flow-image--3" data-speed="0.4">
+        <img src="images/front-images/three_planes.png" alt="" class="flow-image flow-image--right flow-image--4" data-speed="0.55">
+      </div>
+      <div class="container officer-container">
+        <header class="officer-header">
+          <h1 class="officer-title">Competition Team</h1>
+          <p class="officer-lead">Our design competition teams and members.</p>
+        </header>
+        <div class="officer-cards" id="competition-cards" aria-live="polite">
+          <!-- Filled by competition-team.js from competition-team.json -->
+        </div>
+        <div class="competition-applications" aria-labelledby="competition-applications-heading">
+          <h2 id="competition-applications-heading" class="competition-applications-title">Competition Applications</h2>
+          <p class="competition-applications-text">As of now, AIAA Competition Applications are closed for the 2025-26 academic year. If you would like further information on how to join our teams in the future, please contact any of the officers for questions!</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand"><img src="images/AIAA_Logo_2.png" alt="AIAA — UT Austin" class="footer-logo"></div>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+      <p class="footer-credit">Website Design made by Yash Jain</p>
+    </div>
+  </footer>
+  <script src="flow-parallax.js"></script>
+  <script src="competition-team.js"></script>
+</body>
+</html>

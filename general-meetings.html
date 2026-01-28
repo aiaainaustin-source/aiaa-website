@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>General Meetings | Events | AIAA UT Austin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500;600;700&family=Charis+SIL:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="images/favicon2.png" type="image/png">
+</head>
+<body>
+  <header class="page-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo"><img src="images/AIAA_Logo_2.png" alt="AIAA — UT Austin" class="logo-img"></a>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="join.html">Join</a>
+        <div class="nav-dropdown">
+          <a href="about.html" class="nav-dropdown-trigger">About Us</a>
+          <ul class="nav-dropdown-menu">
+            <li><a href="bylaws.html">Bylaws</a></li>
+            <li><a href="officer-team.html">Officer Team</a></li>
+            <li><a href="competition-team.html">Competition Team</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="nav-dropdown">
+          <a href="events.html" class="nav-dropdown-trigger active">Events</a>
+          <ul class="nav-dropdown-menu">
+            <li><a href="general-meetings.html">General Meetings</a></li>
+            <li><a href="workshops.html">Workshops</a></li>
+            <li><a href="socials.html">Socials</a></li>
+            <li><a href="information-sessions.html">Information Sessions</a></li>
+            <li><a href="competitions.html">Competitions</a></li>
+            <li><a href="conferences.html">Conferences</a></li>
+          </ul>
+        </div>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-main">
+    <section class="section event-category-section" id="event-category-section" data-category="general_meetings">
+      <div class="container event-category-container">
+        <h1 class="page-title event-category-title">General Meetings</h1>
+        <p class="page-lead event-category-lead">Past and upcoming general meetings. </p>
+        <div class="event-category-list" id="event-category-list" aria-live="polite">
+          <!-- Filled by event-category.js from events-data.json -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand"><img src="images/AIAA_Logo_2.png" alt="AIAA — UT Austin" class="footer-logo"></div>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="index.html">Home</a>
+        <a href="events.html">Events</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+      <p class="footer-credit">Website Design made by Yash Jain</p>
+    </div>
+  </footer>
+  <script src="event-category.js"></script>
+  <script src="particle-dust.js"></script>
+</body>
+</html>
