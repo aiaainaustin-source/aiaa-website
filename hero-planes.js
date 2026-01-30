@@ -16,14 +16,13 @@
     topMax: 78,
     durationMin: 24,
     durationMax: 48,
-    bannerTexts: [
+    bannerTexts: [ /* 88 unique banner texts */
       'UT Austin AIAA: Inspiring Aerospace Innovators!',
       'Join Our Mission to Fly Higher',
       'Engineering Students Taking Flight',
       'Competitions, Networking, Volunteering',
       'AIAA at UT Austin: Where Aerospace Meets Action',
       'From Rockets to Drones, We Do It All',
-      'Small Club, Big Ambitions',
       'Launching Future Aerospace Leaders',
       'Learn, Build, Fly, Repeat',
       'Powered by Passion, Driven by Aerospace',

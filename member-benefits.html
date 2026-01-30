@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Competition Team | AIAA UT Austin</title>
+  <title>Member Benefits | AIAA UT Austin</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500;600;700&family=Charis+SIL:wght@400;700&display=swap" rel="stylesheet">
@@ -17,7 +17,7 @@
       <nav class="main-nav">
         <a href="index.html">Home</a>
         <div class="nav-dropdown">
-          <a href="join.html" class="nav-dropdown-trigger">Join</a>
+          <a href="join.html" class="nav-dropdown-trigger active">Join</a>
           <ul class="nav-dropdown-menu">
             <li><a href="corporate-sponsorship.html">Corporate Sponsorship</a></li>
             <li><a href="member-benefits.html">Member Benefits</a></li>
@@ -48,25 +48,48 @@
   </header>
 
   <main class="page-main">
-    <section class="officer-section competition-section" id="competition-section">
-      <div class="officer-hero-bg" aria-hidden="true"></div>
-      <div class="officer-flow-images" aria-hidden="true">
+    <section class="section join-subpage-section join-subpage-section--benefits" id="member-benefits-section">
+      <div class="join-subpage-hero-bg" aria-hidden="true"></div>
+      <div class="join-subpage-flow-images" aria-hidden="true">
         <img src="images/front-images/rocket_launch.png" alt="" class="flow-image flow-image--left flow-image--1" data-speed="0.35">
-        <img src="images/front-images/plane.png" alt="" class="flow-image flow-image--right flow-image--2" data-speed="0.5">
+        <img src="images/front-images/plane3.png" alt="" class="flow-image flow-image--right flow-image--2" data-speed="0.5">
         <img src="images/front-images/satellite_in_space.png" alt="" class="flow-image flow-image--left flow-image--3" data-speed="0.4">
-        <img src="images/front-images/three_planes.png" alt="" class="flow-image flow-image--right flow-image--4" data-speed="0.55">
       </div>
-      <div class="container officer-container">
-        <header class="officer-header">
-          <h1 class="officer-title">Competition Team</h1>
-          <p class="officer-lead">Our design competition teams and members.</p>
+      <div class="container join-subpage-container">
+        <header class="join-subpage-header">
+          <h1 class="join-subpage-title">Member Benefits</h1>
+          <p class="join-subpage-subtitle">AIAA Point System</p>
         </header>
-        <div class="officer-cards" id="competition-cards" aria-live="polite">
-          <!-- Filled by competition-team.js from competition-team.json -->
+
+        <div class="content-box content-box--intro">
+          <p>Members earn points by participating in AIAA activities throughout the semester. These points help recognize active involvement and unlock member benefits. By reaching certain point totals, members become eligible for additional benefits.</p>
         </div>
-        <div class="competition-applications" aria-labelledby="competition-applications-heading">
-          <h2 id="competition-applications-heading" class="competition-applications-title">Competition Applications</h2>
-          <p class="competition-applications-text">As of now, AIAA Competition Applications are closed for the 2025-26 academic year. If you would like further information on how to join our teams in the future, please contact any of the officers for questions!</p>
+
+        <div class="benefits-points-row">
+          <div class="content-box content-box--points">
+            <h2 class="content-box-title">How Points Are Earned</h2>
+            <ul class="points-list">
+              <li><span class="point-badge">5 pts</span> General Meetings</li>
+              <li><span class="point-badge">3 pts</span> Social Events</li>
+              <li><span class="point-badge">3 pts</span> Volunteering (per half hour)</li>
+              <li><span class="point-badge point-badge--tba">TBA</span> Other Events (announced in advance)</li>
+            </ul>
+          </div>
+          <div class="content-box content-box--benchmarks">
+            <h2 class="content-box-title">Member Benefit Benchmarks</h2>
+            <ul class="benchmarks-list">
+              <li><span class="benchmark-badge">8 pts</span> <strong>Active Member Status</strong></li>
+              <li><span class="benchmark-badge">8 pts</span> <strong>Resume Bank Access</strong></li>
+              <li><span class="benchmark-badge benchmark-badge--tba">TBA</span> <strong>AIAA T-shirts and Stoles</strong></li>
+              <li><span class="benchmark-badge benchmark-badge--tba">TBA</span> <strong>Additional benefits</strong></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="content-box content-box--cta benefits-cta-box">
+          <h2 class="content-box-title">Get Involved</h2>
+          <p class="benefits-cta-lead">Participation in AIAA events is the best way to make the most of your membership. Whether you're interested in competitions, volunteering, networking, or professional development, there are many ways to get involved and earn points while building valuable experience.</p>
+          <a href="join.html" class="btn btn-primary benefits-cta-btn">Join AIAA on Discord</a>
         </div>
       </div>
     </section>
@@ -83,6 +106,5 @@
     </div>
   </footer>
   <script src="flow-parallax.js"></script>
-  <script src="competition-team.js"></script>
 </body>
 </html>
