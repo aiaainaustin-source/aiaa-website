@@ -10,7 +10,7 @@
   {
     "name": "Liam Lemaire",
     "role": "Vice President (Internal)",
-    "image": "images/people/officer_images/liam_lemaire_sp26.jpeg",
+    "image": "images/people/officer_images/liam_lemaire_square.png",
     "quote": "I have an 8-year-old German Sheperd in my home in Houston!",
     "linkedin": "https://www.linkedin.com/in/liam-lemaire-6833b027b/",
     "email": "liamplemaire@gmail.com"
@@ -18,18 +18,18 @@
   {
     "name": "Anvita Nandula",
     "role": "Vice President (External)",
-    "image": "images/people/officer_images/anvita_nandula.png",
+    "image": "images/people/officer_images/anvita_nandula_square.jpg",
     "quote": "I played the violin for 7 years!",
     "linkedin": "https://www.linkedin.com/in/anvita-nandula/",
     "email": "anvita.nandula@utexas.edu"
   },
   {
     "name": "Yash Jain",
-    "role": "Vice President of Website and Experience Design",
+    "role": "Interim Webmaster",
     "image": "images/people/officer_images/yash_jain.jpg",
     "quote": "Coder by day. Coder by night.",
     "linkedin": "https://www.linkedin.com/in/yashjain-aus",
-    "email": ""
+    "email": "yashj2027@utexas.edu"
   },
   {
     "name": "Ronil Shah",
@@ -42,7 +42,7 @@
   {
     "name": "Casey Griffith",
     "role": "Treasurer",
-    "image": "images/people/officer_images/casey_griffith.png",
+    "image": "images/people/officer_images/casey_griffith_square.jpeg",
     "quote": "I've trained my cat to walk with a leash!",
     "linkedin": "https://www.linkedin.com/in/casey-griffith-402032232/",
     "email": "caseygriffschool@gmail.com"
@@ -50,7 +50,7 @@
   {
     "name": "Jay Kim",
     "role": "Cockrell Relations Chair",
-    "image": "images/people/officer_images/jay_kim.png",
+    "image": "images/people/officer_images/jay_kim_square.jpeg",
     "quote": "I have napped in every building on campus!",
     "linkedin": "https://www.linkedin.com/in/jayjwkim/",
     "email": "jaykim@utexas.edu"
@@ -58,7 +58,7 @@
   {
     "name": "Faith Garza",
     "role": "Competitions Chair",
-    "image": "images/people/officer_images/faith_garza.png",
+    "image": "images/people/officer_images/faith_garza_square.jpeg",
     "quote": "I am a senior!",
     "linkedin": "https://www.linkedin.com/in/faith-garza-8a464724b/",
     "email": "faithgarza.13@utexas.edu"
@@ -66,7 +66,7 @@
   {
     "name": "Sanjana Kalyandurg",
     "role": "Social Media Chair",
-    "image": "images/people/officer_images/sanjana_kalyandurg.png",
+    "image": "images/people/officer_images/sanjana_kalyandurg_square.jpg",
     "quote": "I have been to 34 states and counting!",
     "linkedin": "https://www.linkedin.com/in/sanjana-kalyandurg-1b4507327/",
     "email": "sanjana.kal@utexas.edu"
@@ -74,7 +74,7 @@
   {
     "name": "Sharan Sathish",
     "role": "Freshman Representative",
-    "image": "images/people/officer_images/sharan_sathish_sp26.jpeg",
+    "image": "images/people/officer_images/sharan_sathish_square.jpeg",
     "quote": "I race drones and RC planes!",
     "linkedin": "https://www.linkedin.com/in/sharan-sathish-2a60b7277",
     "email": "ss235937@my.utexas.edu"
@@ -82,7 +82,7 @@
   {
     "name": "Mason Wakefield",
     "role": "Freshman Representative",
-    "image": "images/people/officer_images/mason_wakefield_sp26.jpg",
+    "image": "images/people/officer_images/mason_wakefield_square.jpg",
     "quote": "I can pour soft-serve into a perfect swirl every time.",
     "linkedin": "https://www.linkedin.com/in/masonjwakefield/",
     "email": "mjw4727@my.utexas.edu"
