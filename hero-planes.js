@@ -116,6 +116,7 @@
     popDurationMs: 600,
     respawnDelayMs: 2800
   };
+  var planeTier = 1;
 
   function randomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -129,6 +130,15 @@
     return array[randomInt(0, array.length - 1)];
   }
 
+  function getTierFromTrack(track) {
+    var banner = track && track.querySelector('.plane-banner');
+    if (!banner) return 1;
+    if (banner.classList.contains('plane-banner--gold')) return 4;
+    if (banner.classList.contains('plane-banner--silver')) return 3;
+    if (banner.classList.contains('plane-banner--bronze')) return 2;
+    return 1;
+  }
+
   function initHeroPlanes() {
     var layer = document.querySelector('.hero-planes-layer');
     if (!layer) return;
@@ -139,6 +149,12 @@
       var track = e.target.closest('.hero-plane-track');
       if (!track || track.classList.contains('popped')) return;
       track.classList.add('popped');
+      planeTier = Math.max(planeTier, getTierFromTrack(track));
+      if (planeTier === 4) {
+        window.location.href = 'secret.html';
+        planeTier = 1;
+        return;
+      }
       track.removeEventListener('animationend', track._removeTrack);
       if (track._removeTrack) {
         window.setTimeout(track._removeTrack, cfg.popDurationMs);
@@ -171,6 +187,11 @@
 
       var banner = document.createElement('span');
       banner.className = 'plane-banner';
+      if (Math.random() < 0.05) {
+        if (planeTier >= 3) banner.classList.add('plane-banner--gold');
+        else if (planeTier >= 2) banner.classList.add('plane-banner--silver');
+        else if (planeTier >= 1) banner.classList.add('plane-banner--bronze');
+      }
       banner.textContent = pick(cfg.bannerTexts);
 
       var img = document.createElement('img');
