@@ -377,6 +377,7 @@ a:hover {
   margin: 0 0 0.5rem;
   letter-spacing: 0.02em;
   text-shadow: 0 2px 16px rgba(0,0,0,0.7), 0 0 60px rgba(0,0,0,0.45);
+  transition: color 0.05s ease;
 }
 
 .hero-subtitle {
@@ -388,6 +389,28 @@ a:hover {
   text-transform: uppercase;
   opacity: 0.95;
   text-shadow: 0 1px 10px rgba(0,0,0,0.65), 0 0 36px rgba(0,0,0,0.4);
+  transition: color 0.05 ease;
+}
+
+/* Hero text color by plane tier (1=white, 2=bronze, 3=silver, 4=gold) */
+.hero[data-plane-tier="1"] .hero-title,
+.hero[data-plane-tier="1"] .hero-subtitle {
+  color: #fff;
+}
+.hero[data-plane-tier="2"] .hero-title,
+.hero[data-plane-tier="2"] .hero-subtitle {
+  color: #b87333;
+}
+.hero[data-plane-tier="3"] .hero-title,
+.hero[data-plane-tier="3"] .hero-subtitle {
+  color: #a8a8a8;
+}
+.hero[data-plane-tier="4"] .hero-title,
+.hero[data-plane-tier="4"] .hero-subtitle {
+  color: transparent;
+  background: linear-gradient(145deg, #c9a227 0%, #d0a539 80%, #a08849 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
 }
 
 /* UT silhouette: near bottom of hero, above Who We Are */

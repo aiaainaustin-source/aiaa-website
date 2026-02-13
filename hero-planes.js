@@ -10,8 +10,8 @@
   'use strict';
 
   var PLANE_CONFIG = {
-    spawnIntervalMinMs: 1500,
-    spawnIntervalMaxMs: 4000,
+    spawnIntervalMinMs: 1000,
+    spawnIntervalMaxMs: 3000,
     topMin: 4,
     topMax: 78,
     durationMin: 24,
@@ -117,6 +117,7 @@
     respawnDelayMs: 2800
   };
   var planeTier = 1;
+  var reached_gold = false;
 
   function randomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -139,20 +140,37 @@
     return 1;
   }
 
+  var REACHED_GOLD_KEY = 'aiaa_reached_gold';
+
+  function updateHeroTierColor(tier) {
+    if (sessionStorage.getItem(REACHED_GOLD_KEY)) tier = 4;
+    var hero = document.querySelector('.hero');
+    if (hero) hero.setAttribute('data-plane-tier', String(tier));
+  }
+
   function initHeroPlanes() {
     var layer = document.querySelector('.hero-planes-layer');
     if (!layer) return;
 
     var cfg = PLANE_CONFIG;
+    updateHeroTierColor(planeTier);
 
     layer.addEventListener('click', function (e) {
       var track = e.target.closest('.hero-plane-track');
       if (!track || track.classList.contains('popped')) return;
       track.classList.add('popped');
-      planeTier = Math.max(planeTier, getTierFromTrack(track));
+      var clickedTier = getTierFromTrack(track);
+      if (clickedTier === 1 && sessionStorage.getItem(REACHED_GOLD_KEY)) {
+        sessionStorage.removeItem(REACHED_GOLD_KEY);
+        planeTier = 1;
+      }
+      planeTier = Math.max(planeTier, clickedTier);
+      updateHeroTierColor(planeTier);
       if (planeTier === 4) {
+        sessionStorage.setItem(REACHED_GOLD_KEY, '1');
         window.location.href = 'secret.html';
         planeTier = 1;
+        reached_gold = true;
         return;
       }
       track.removeEventListener('animationend', track._removeTrack);
