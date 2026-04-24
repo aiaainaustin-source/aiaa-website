@@ -162,9 +162,10 @@
     });
 
   function formatDate(iso) {
-    if (!iso) return '';
-    const d = new Date(iso);
-    if (isNaN(d.getTime())) return iso;
-    return d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+   if (!iso) return '';
+    const [year, month, day] = iso.split('-').map(Number);
+   const d = new Date(year, month - 1, day); // local time, no timezone shift
+   if (isNaN(d.getTime())) return iso;
+   return d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
   }
 })();
