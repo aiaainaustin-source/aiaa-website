@@ -106,7 +106,7 @@
         if (event.summary) {
           const summary = document.createElement('p');
           summary.className = 'event-card-summary';
-          summary.textContent = event.summary;
+          summary.innerHTML = renderSummaryHTML(event.summary);
           card.appendChild(summary);
         }
 
@@ -143,11 +143,11 @@
               img.src = src;
               img.alt = '';
               img.loading = 'lazy';
-              link.appendChild(img);
               link.addEventListener('click', function (e) {
                 e.preventDefault();
                 showLightbox(i, images);
               });
+              link.appendChild(img);
               media.appendChild(link);
             });
           }
@@ -167,5 +167,55 @@
    const d = new Date(year, month - 1, day); // local time, no timezone shift
    if (isNaN(d.getTime())) return iso;
    return d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+  }
+
+  // Escape text for safe insertion into innerHTML.
+  function escapeHTML(str) {
+    return str
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
+  }
+
+  // Matches http(s) URLs; stops at whitespace.
+  var URL_REGEX = /(https?:\/\/[^\s<>"']+)/g;
+
+  // Convert one line of plain text into safe HTML with clickable links.
+  function linkifyLine(line) {
+    var result = '';
+    var lastIndex = 0;
+    var match;
+
+    URL_REGEX.lastIndex = 0;
+    while ((match = URL_REGEX.exec(line)) !== null) {
+      var url = match[0];
+      var trailing = '';
+
+      // Trim trailing punctuation that's likely not part of the URL
+      // (e.g. a period or comma right after it).
+      var trailingMatch = url.match(/[.,;:!?)\]]+$/);
+      if (trailingMatch) {
+        trailing = trailingMatch[0];
+        url = url.slice(0, url.length - trailing.length);
+      }
+
+      result += escapeHTML(line.slice(lastIndex, match.index));
+      result += '<a href="' + escapeHTML(url) + '" target="_blank" rel="noopener noreferrer">' + escapeHTML(url) + '</a>';
+      result += escapeHTML(trailing);
+
+      lastIndex = match.index + match[0].length;
+    }
+
+    result += escapeHTML(line.slice(lastIndex));
+    return result;
+  }
+
+  // Convert a full summary string (which may contain literal "\n" or real
+  // newline characters) into safe, linkified, line-broken HTML.
+  function renderSummaryHTML(summary) {
+    var lines = summary.replace(/\\n/g, '\n').split('\n');
+    return lines.map(function (line) { return linkifyLine(line.trim()); }).join('<br>');
   }
 })();
