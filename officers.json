@@ -59,7 +59,7 @@
     "name": "Taha Pirzada",
     "role": "Competitions Chair",
     "image": "images/people/officer_images/taha_pirzada_square.jpg",
-    "quote": "I play saxophone in the Longhorn Band!git",
+    "quote": "I play saxophone in the Longhorn Band!",
     "linkedin": "https://www.linkedin.com/in/taha-pirzada/",
     "email": "tp26339@eid.utexas.edu"
   },
@@ -86,5 +86,28 @@
     "quote": "I'm a big fan of board games!",
     "linkedin": "https://www.linkedin.com/in/ethan-grendell/",
     "email": "ethan.grendell@gmail.com"
+  },
+  {
+    "name": "Vijval Katepally",
+    "role": "Freshman Representative",
+    "image": "images/people/officer_images/vijval_katepally.png",
+    "quote": "I love to fly planes!",
+    "email": "vijkatepally@gmail.com"
+  },
+  {
+    "name": "Abjihay Patchala",
+    "role": "Freshman Representative",
+    "image": "images/people/officer_images/abhijay_patchala.jpg",
+    "quote": "I like chess!",
+    "linkedin": "https://www.linkedin.com/in/abhijay-patchala/",
+    "email": "abhijay@utexas.edu"
+  },
+  {
+    "name": "Daksha Srinivasan",
+    "role": "Freshman Representative",
+    "image": "images/people/officer_images/daksha_srinivasan.png",
+    "quote": "I can move my ears!",
+    "linkedin": "https://www.linkedin.com/in/dakshasrinivasan/",
+    "email": "dms6364@my.utexas.edu"
   }
 ]
