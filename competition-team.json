@@ -1,13 +1,5 @@
 [
   {
-    "name": "Faith Garza",
-    "role": "Competitions Chair",
-    "image": "images/people/officer_images/faith_garza.png",
-    "quote": "I did competitive dancing for 7 years!",
-    "linkedin": "https://www.linkedin.com/in/faith-garza13/",
-    "email": "faithgarza.13@utexas.edu"
-  },
-  {
     "name": "Shrey Joshi",
     "role": "Aircraft Team Mentor",
     "image": "images/people/competition_officer_images/shrey_joshi.jpg",
@@ -16,12 +8,20 @@
     "email": "shrey.joshi@utexas.edu"
   },
   {
-    "name": "Rohan Tejomurtula",
+    "name": "Hana Sultana",
     "role": "Space Team Mentor",
-    "image": "images/people/competition_officer_images/rohan_tejomurtula.jpg",
+    "image": "images/people/competition_officer_images/hana_sultana.png",
     "quote": "Undergraduate mentor for the space team.",
     "linkedin": "",
-    "email": ""
+    "email": "hanasultana@utexas"
+  },
+    {
+    "name": "Ethan Grendell",
+    "role": "Interim Missile Team Mentor",
+    "image": "images/people/competition_officer_images/ethan_grendell.png",
+    "quote": "Interim undergraduate mentor for the missile team.",
+    "linkedin": "https://www.linkedin.com/in/ethan-grendell/",
+    "email": "ethan.grendell@gmail.com"
   },
   {
     "name": "Greg Zwernemann",
@@ -38,5 +38,21 @@
     "quote": "Faculty advisor for the space design team.",
     "linkedin": "",
     "email": "adamnokes@utexas.edu"
+  },
+    {
+    "name": "John-Paul Clarke",
+    "role": "Missile Team Faculty Advisor",
+    "image": "images/people/competition_officer_images/johnpaul_clarke_website.jpg",
+    "quote": "Faculty advisor for the missile design team.",
+    "linkedin": "",
+    "email": "johnpaul@utexas.edu"
+  },
+      {
+    "name": "Taha Pirzada",
+    "role": "Competitions Chair",
+    "image": "images/people/competition_officer_images/taha_pirzada_square.jpg",
+    "quote": "Oversees the AIAA design competition",
+    "linkedin": "https://www.linkedin.com/in/taha-pirzada/",
+    "email": "tp26339@eid.utexas.edu"
   }
 ]
